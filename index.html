@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="css/Estilo.css">
+     <link rel="stylesheet" href="css/Formulario.css"> 
+
+
+    <title>Gestion Biomédica</title>
+</head>
+
+<body style="height: 3000px;">
+
+
+    <!-- fixed-top   Navbar fijo  -->
+    <nav class="navbar  shadow-sm   navbar-expand-xl navbar-light ">
+        <div class="container ">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block aling-top" src="logo.jpg" alt="" width="110px" height="110px"
+                    style="color: white;">
+                <span class="TextH1">GB Gestión biomédica</span>
+            </a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link active">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link active dropdown-toggle" id="navbarDropdowm" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Empresa
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdowm">
+                            <li><a href="#" class="dropdown-item">Quienes Somos </a></li>
+                            <li><a href="#" class="dropdown-item">Misión </a></li>
+                            <li><a href="#" class="dropdown-item">Visión </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link active">
+                            Trayectoria
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link active dropdown-toggle" id="navbarDropdowm" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdowm">
+                            <li><a class="dropdown-item" href="#">Lámparas de Cirugía</a></li>
+                            <li><a class="dropdown-item" href="#">Mesa de Cirugía</a></li>
+                            <li><a class="dropdown-item" href="#">Ventilador de transporte</a></li>
+                            <li><a class="dropdown-item" href="#">Máquinas de anestesia</a></li>
+                            <li><a class="dropdown-item" href="#">Bombas de Infusión</a></li>
+                            <li><a class="dropdown-item" href="#">Mesa de Cirugía</a></li>
+                            <li><a class="dropdown-item" href="#">Monitores Fetales</a></li>
+                            <li><a class="dropdown-item" href="#">Videocolposcopio</a></li>
+                            <li><a class="dropdown-item" href="#">Electrobisturís</a></li>
+                            <li><a class="dropdown-item" href="#">Ecógrafos</a></li>
+                            <li><a class="dropdown-item" href="#">Diagnóstico</a></li>
+                            <li><a class="dropdown-item" href="#">Camas y Camillas</a></li>
+                            <li><a class="dropdown-item" href="#">Incubadoras</a></li>
+                            <li><a class="dropdown-item" href="#">Desfibriladores</a></li>
+                            <li><a class="dropdown-item" href="#">Monitores multiparámetros</a></li>
+                            <li><a class="dropdown-item" href="#">Videocolposcopio</a></li>
+                            <li><a class="dropdown-item" href="#">Succionadores</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link active">
+                            Contáctenos
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <botton type="submit" class="btn btn-outline-success">
+                    Buscar
+                </botton>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- carusel -->
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class=" carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000" >
+                <div class="overlay-image" style="background-image:url(./respiradorr.jpg);"></div>
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" style="background-image:url(./mask.jpg);">
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo1</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" style="background-image:url(./termometro.jpg);">
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo1</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" style="background-image:url(./Tensiometro.jpg);">
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo1</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" style="background-image:url(./pulsoximetro.jpg);">
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo1</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" style="background-image:url(./bascula.jpg);">
+                <div class="container contenedor-Carusel">
+                    <h1>Ejemplo1</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque commodi quis pariatur atque velit quod <br>
+                        hic sequi a vero ad laborum, cupiditate nesciunt at <br>
+                        repellendus architecto possimus quibusdam eum illum.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+            <span class="sr-only"></span>
+            <spam class="carousel-control-prev-icon" aria-hidden="true">
+            </spam>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+            <span class="sr-only"></span>
+            <spam class="carousel-control-next-icon" aria-hidden="true">
+            </spam>
+        </a>
+    </div>
+
+
+
+    <div class class="container-md p-4 pt-5">
+        <div>
+          <h3 class="text-center pb-4 pt-5 h1">Monitorización</h3>
+    
+          <div class="row">
+            <div class="col-sm cart" style="flex-direction: initial;">
+              <div class="  content1">
+                <h2>BeneVision TM N22 / N19</h2>
+                <p>
+                  Maximiza tu confianza <br>
+                  Benefíciese de mediciones clínicas de vanguardia, como rSO 2 , ICG, PiCCO, AG, RM, BIS, NMT y herramientas
+                  de soporte de decisiones clínicas de última generación, como HemoSight TM , ST Graphic TM , DSA,
+                  BeneVision N22 / N19 mejora su confianza clínica al máximo y le ayuda a tomar decisiones clínicas más
+                  fáciles y rápidas.
+                </p>
+                <a href="#">Leer Más</a>
+              </div>
+              <img src="img/img/BeneVision N22.png">
+            </div>
+          </div>
+        </div>
+        <div class="Color1">
+          <div class="container-md">
+            <div class="row">
+              <div class="col-lg">
+                <div class="w-100 Contenido1">
+                  <div class=" card2">
+                    <div class="imgBx1">
+                      <img src="img/img/epm10.png">
+                    </div>
+                    <div class="contenido2">
+                      <div>
+                        <h3>ePM10</h3>
+                        <p>La pantalla táctil capacitiva de alta resolución y la interfaz de usuario intuitiva pueden ayudar
+                          a
+                          los cuidadores a completar las tareas clínicas de forma rápida y precisa, manteniendo su atención
+                          en
+                          los pacientes durante el transporte de pacientes.</p>
+                        <a href="#">Leer Más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg">
+                <div class=" w-100 Contenido1">
+                  <div class=" card2">
+                    <div class="imgBx1">
+                      <img src="img/img/umec10.png">
+                    </div>
+                    <div class="contenido2">
+                      <div>
+                        <h3>uMEC</h3>
+                        <p>El monitor
+                          proporciona una interfaz de usuario muy intuitiva para ayudar a aplicaciones más rápidas y
+                          sencillas
+                          incluso para los nuevos usuarios</p>
+                        <a href="#">Leer Más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  <div class class="container-md ">
+    <div>
+      <h3 class="text-center mt-2 pt-5 h1"> Soporte vital</h3>
+
+      <div class="row centro">
+
+        <div class=" card1">
+          <div class="col-sm circle1"></div>
+          <div class="content2">
+            <h2>Ventilador SV800/SV600</h2>
+            <p class="h6">Toda la inteligencia conduce a la facilidad</p>
+            <p>Un ventilador de alta gama con pantalla ancha de 1080P HD combina una interfaz de usuario personalizada
+              intuitiva con potentes herramientas y módulos de asistencia.</p>
+            <a href="#">Leer Más</a>
+          </div>
+          <img src="img/img/SV600SV800.png">
+        </div>
+
+        <div class="card1">
+          <div class="circle1"></div>
+          <div class="content2">
+            <h2>A9</h2>
+            <p class="h6">Un espacio de trabajo más claro y brillante</p>
+            <p>Comprobación de varias piezas de forma automática para asegurar su correcto funcionamiento, con
+              visualización gráfica de corrección de errores.</p>
+            <a href="#">Leer Más</a>
+          </div>
+          <img src="img/img/a8.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="Color">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-lg">
+          <div class="w-100 Contenido1">
+            <div class=" card2">
+              <div class="imgBx1">
+                <img src="img/img/BeneHeart D3.png">
+              </div>
+              <div class="contenido2">
+                <div>
+                  <h3>BeneHeart D6</h3>
+                  <p>BeneHeart D6, un desfibrilador-monitor bifásico profesional, cumple con los requisitos de los
+                    profesionales médicos en hospitales y clínicas de todo el mundo. El diseño compacto, duradero y
+                    ergonómico de D6 lo hace adecuado para uso de emergencia. </p>
+                  <a href="#">Leer Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class=" w-100 Contenido1">
+            <div class=" card2">
+              <div class="imgBx1">
+                <img src="img/img/BeneFusion.png">
+              </div>
+              <div class="contenido2">
+                <div>
+                  <h3>BeneFusion n Series</h3>
+                  <p>Con una gran pantalla capacitiva totalmente táctil y una interfaz intuitiva, la serie BeneFusion n
+                    ofrece una experiencia de vanguardia junto con una facilidad de uso superior, lo que garantiza una
+                    mayor precisión y una mayor eficiencia del flujo de trabajo.</p>
+                  <a href="#">Leer Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class class="container-md  pt-5  mt-5 Color ">
+    <div>
+      <h3 class="text-center pb-3 pt-3 h1">Solución de imágenes <br> médicas</h3>
+      <div class="row">
+        <div class="col-sm cart" style="flex-direction: initial;">
+          <div class="  content1">
+            <h2>Ultrasonido Resona R9</h2>
+            <p class="h5">Herramientas clínicas innovadoras que permiten diagnóstico más seguro.</p>
+            <p class=" h5">Herramientas clínicas innovadoras que permiten intervención más precisa.</p>
+            <p>La Resona , un sistema de ultrasonido de imagen general con características completamente innovadoras de
+              adentro hacia afuera. Todas las innovaciones se desarrollan sobre la base de conocimientos profundos en
+              escenarios clínicos complejos, proporcionando respuestas precisas y oportunas, así como una eficiencia
+              sobresaliente y una experiencia de usuario extraordinaria.</p>
+            <a href="#">Leer Más</a>
+          </div>
+          <img src="img/img/Resona R9.png">
+        </div>
+      </div>
+    </div>
+    <div class="Color1">
+      <div class="container-md ">
+        <div class="row ">
+          <div class="col-lg">
+            <div class="w-100 Contenido1">
+              <div class=" card2">
+                <div class="imgBx1">
+                  <img src="img/img/m9.png" he>
+                </div>
+                <div class="contenido2">
+                  <div>
+                    <h3>Ultrasonido M9</h3>
+                    <p>Imágenes armónicas purificadas para una mejor resolución de contraste que proporciona imágenes
+                      más claras con una resolución excelente y menos ruido.
+                    </p>
+                    <a href="#">Leer Más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class=" w-100 Contenido1">
+              <div class=" card2">
+                <div class="imgBx1">
+                  <img src="img/img/MobiEye 700.png">
+                </div>
+                <div class="contenido2">
+                  <div>
+                    <h3>MobiEye 700</h3>
+                    <p>Radiografía móvil</p>
+                    <a href="#">Leer Más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer id="Contáctenos">
+    <section>
+      <div class="ContenedorContactenos">
+        <div class="contactInfo">
+          <div>
+            <h2>Información de Contacto</h2>
+            <ul class="info">
+              <li>
+                <span><img src="img/location.png"></span>
+                <span>Carrera 50A # 174A - 66<br>
+                  Torre 8 of 301<br>
+                  Bogotá D.C</span>
+              </li>
+              <li>
+                <span><img src="img/mail.png"></span>
+                <span>gbgestionbiomedica@gmail.com <br>comercialgestionbiomedica@gmail.com </span>
+              </li>
+              <li>
+                <span><img src="img/call.png"></span>
+                <span>313-228-5696 - 311-467-0795</span>
+              </li>
+            </ul>
+          </div>
+          <ul class="sci">
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="img/1.png"></a></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="img/2.png"></a></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="img/3.png"></a></a></li>
+            <li><a href="https://co.pinterest.com/" target="_blank"><img src="img/4.png"></a></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="img/5.png"></a></a></li>
+          </ul>
+        </div>
+        <div class="contactForm">
+          <h2>Enviar un Mensaje</h2>
+          <div class="formBox">
+            <div class="inputBox w50">
+              <input type="text" name="" required>
+              <span>Nombre</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" name="" required>
+              <span>Apellido</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" name="" required>
+              <span>Correo</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" name="" required>
+              <span>Teléfono</span>
+            </div>
+            <div class="inputBox w100">
+              <textarea name="" required></textarea>
+              <span>Escriba su mensaje aquí...</span>
+            </div>
+            <div class="inputBox w100">
+              <input type="submit" value="Enviar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class=" ContenedorContactenos-lg IconosRedes">
+      <div class="row AjustesIcons">
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/Dräger_Logo.png" alt="icono facebook " width="120px">
+          </a>
+        </div>
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/Toshiba_logo.png" alt="icono twitter" style="padding-top: 10px;" width="200px">
+          </a>
+        </div>
+
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/NSK.png" alt="icono instagram" width="120px">
+          </a>
+        </div>
+
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/carestream-dental-logo.png" alt="icono facebook " width="290px">
+          </a>
+        </div>
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/GE_Healthcare.png" alt="icono facebook " width="250px">
+          </a>
+        </div>
+        <div class="col-sm">
+          <a class="a" href="#">
+            <img src="img/siemens-healthineers-logo.svg" alt="icono facebook " width="220px">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="color">
+      <div class="textofooter">
+        <p>
+          ©copyright 2021 <br> <span style="color: #fff;">Gestión Biomedica</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/co re@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
