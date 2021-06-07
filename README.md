@@ -1,2 +1,0 @@
-# gestion biomedica
- Desarrollos
